@@ -189,7 +189,6 @@ nav h1 {
   font-size: 28px;
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 32px;
   line-height: 1.2;
   transition: color 0.4s ease;
   margin-bottom: 16px;
@@ -199,12 +198,6 @@ nav h1:hover {
   color: #f9da85;
 }
 
-nav p {
-  color: #999999;
-  font-style: italic;
-  font-size: 14px;
-  display: none;
-}
 
 nav a.author {
   font-style: italic;
@@ -213,13 +206,11 @@ nav a.author {
 }
 
 nav ul {
-  margin-bottom: 48px;
   display: flex;
   margin-bottom: 0;
 }
 
 nav ul li {
-  margin-bottom: 16px;
   margin-right: 16px;
   margin-bottom: 0;
 }
@@ -272,7 +263,6 @@ main section {
   justify-content: center;
   width: 100%;
   padding: 32px;
-  padding: 32px;
 }
 
 main section h2 {
@@ -305,9 +295,7 @@ main section img {
   height: auto;
 }
 
-main section img:hover {
-  border: 10px solid #dadadabf;
-}
+
 
 /** MAIN: PORTFOLIO **/
 main section.portfolio .grid-container {
@@ -334,6 +322,7 @@ main section.portfolio .tile {
   transition: all 0.2s;
   padding: 1.5rem;
   margin: 1.5rem;
+  justify-content: center;
 }
 
 main section.portfolio .tile:hover {
