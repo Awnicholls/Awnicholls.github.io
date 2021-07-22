@@ -287,10 +287,10 @@ main section:not(.portfolio) {
 
 main section img {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:center;
   background-size: cover;
   background-blend-mode: multiply;
-  border: 10px solid #f9da85;
+  border: 10px solid #bb0000;
   max-width: 90%;
   height: auto;
 }
