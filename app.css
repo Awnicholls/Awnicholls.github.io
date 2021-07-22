@@ -281,7 +281,7 @@ main section p {
   margin-bottom: 16px;
 }
 
-main section:not(.portfolio) {
+main section:not(.home) {
   display: none;
 }
 
@@ -295,7 +295,41 @@ main section img {
   height: auto;
 }
 
+main section.home {
+  flex-direction: row;
+  align-items: center;
+}
 
+main section.home .avatar {
+  width: 100%;
+  margin-right: 64px;
+}
+
+main section.home .content ul {
+  display: flex;
+}
+
+main section.home .content ul li {
+  margin-right: 24px;
+}
+
+main section.home .content ul li:last-of-type {
+  margin-right: 0;
+}
+
+main section.home .content ul li svg {
+  width: 17px;
+  height: 17px;
+  transition: fill .4s ease;
+}
+
+main section.home .content ul li svg:hover {
+  fill: #f9da85;
+}
+
+main section.home .content p {
+  margin-bottom: 32px;
+}
 
 /** MAIN: PORTFOLIO **/
 main section.portfolio .grid-container {
