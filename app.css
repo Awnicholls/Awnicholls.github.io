@@ -348,6 +348,7 @@ main section.portfolio img {
 
 main section.portfolio .tile {
   display: grid;
+  position: relative;
   background-color: #fafafa;
   height: 70vh;
   width: 350px;
@@ -364,6 +365,8 @@ main section.portfolio .tile:hover {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
 }
 
+
+
 main section.portfolio h3 {
   display: flex;
   align-items: flex-end;
@@ -379,6 +382,34 @@ main section.portfolio .photos {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+}
+
+
+
+main section.portfolio .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #008CBA;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+main section.portfolio .tile:hover .overlay {
+  opacity: .8;
+}
+
+main section.portfolio .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /** MAIN: ABOUT **/
@@ -468,6 +499,7 @@ main section.contact button:hover {
     width: 290px;
     height: 200px;
   }
+  
 }
 @media (max-width: 600px) {
   main section.portfolio .grid-container {
