@@ -18,4 +18,20 @@ function onClickNavHandler() {
   }
 }
 
+const btn = document.querySelector(".btn-toggle");
+const theme = document.querySelector("#theme-link");
+
+btn.addEventListener("click", function() {
+  if (theme.getAttribute("href") == "light-theme.css") {
+    theme.href = "dark-theme.css";
+    btn.innerHTML = "Light Theme";
+  
+  } else {
+    theme.href = "light-theme.css";
+    btn.innerHTML = "Dark Theme";
+  }
+});
+
+
+
 onClickNavHandler();
