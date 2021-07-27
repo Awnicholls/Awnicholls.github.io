@@ -397,19 +397,35 @@ main section.portfolio .overlay {
 }
 
 main section.portfolio .tile:hover .overlay {
-  opacity: .8;
+  opacity: .9;
 }
 
-main section.portfolio .text {
+
+main section.portfolio .text-header {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: bold;
   position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+main section.portfolio .text-body {
+  color: white;
+  font-size: 18px;
+  position: relative;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  padding: 10px;
 }
 
 /** MAIN: ABOUT **/
