@@ -55,7 +55,7 @@ const skills = [
 ];
 
 const contact = {
-  email: "awnicholls56@gmail.com",
+  email: "alexwnicholls@gmail.com",
 };
 
 export { header, about, projects, skills, contact };
