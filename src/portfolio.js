@@ -7,7 +7,7 @@ const about = {
   name: "Alex Nicholls",
   role: "Front End Developer",
   description:
-    "Junior Web developer able to build a Web site using frameworks and tools, such as Webpack\.\
+    "Junior Web developer able to build a Web site using frameworks and tools, such as React\.\
     Looking for a junior level position to further learn skills and frameworks that are used, and to get a deeper understanding in Web Development\.\
     ",
   social: {
@@ -46,9 +46,10 @@ const skills = [
   "HTML",
   "CSS",
   "JavaScript",
+  "Webpack",
   "React",
+  "Next",
   "Redux",
-  "SASS",
   "Material UI",
   "Git",
   "CI/CD",
