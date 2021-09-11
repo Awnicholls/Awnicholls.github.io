@@ -51,6 +51,7 @@ const skills = [
   "Next",
   "Redux",
   "Material UI",
+  "Tailwind",
   "Git",
   "CI/CD",
 ];
